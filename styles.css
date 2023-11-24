@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navigation {
+  background-color: rgb(17, 9, 165);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1%;
+}
+.pepsi {
+  height: 50px;
+}
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.search {
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.icon-white {
+  color: white;
+  cursor: pointer;
+}
+.list {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.round {
+  border: 2px solid white;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.options {
+  display: flex;
+  align-items: center;
+}
